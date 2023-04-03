@@ -7,16 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07B84C6FB75842E38D0131CA /* Pods_MVVMCombine_MVVMCombineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207B125353BF9839F0FC11A5 /* Pods_MVVMCombine_MVVMCombineUITests.framework */; };
+		9BDA97FA240D7344E09637F5 /* Pods_MVVMCombineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3E0CD6F538AFCF7EE335B7 /* Pods_MVVMCombineTests.framework */; };
+		A25B500E29D63CBF006640B1 /* WeakReferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B500D29D63CBF006640B1 /* WeakReferenceModel.swift */; };
+		A25B505F29D66B2F006640B1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B505E29D66B2F006640B1 /* NetworkManager.swift */; };
+		A25B506229D6700A006640B1 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B506129D6700A006640B1 /* ServiceType.swift */; };
+		A25B506A29D67141006640B1 /* NewsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B506929D67141006640B1 /* NewsModels.swift */; };
+		A299F79E29D785FB000207E0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F79D29D785FB000207E0 /* BaseViewController.swift */; };
+		A299F7A029D7889A000207E0 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F79F29D7889A000207E0 /* BaseCoordinator.swift */; };
+		A299F7DD29D78E69000207E0 /* HomeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7C129D78E69000207E0 /* HomeViewModelProtocol.swift */; };
+		A299F7DE29D78E69000207E0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7C229D78E69000207E0 /* HomeViewModel.swift */; };
+		A299F7DF29D78E69000207E0 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7C429D78E69000207E0 /* HomeCoordinator.swift */; };
+		A299F7E029D78E69000207E0 /* HomeCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7C529D78E69000207E0 /* HomeCoordinatorProtocol.swift */; };
+		A299F7E129D78E69000207E0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A299F7C729D78E69000207E0 /* HomeViewController.xib */; };
+		A299F7E229D78E69000207E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7C829D78E69000207E0 /* HomeViewController.swift */; };
+		A299F7E329D78E69000207E0 /* HomeViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7C929D78E69000207E0 /* HomeViewControllerProtocol.swift */; };
+		A299F7E429D78E69000207E0 /* HomeResourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7CB29D78E69000207E0 /* HomeResourses.swift */; };
+		A299F7E529D78E69000207E0 /* HomeCoordinatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7CD29D78E69000207E0 /* HomeCoordinatorModel.swift */; };
+		A299F7E629D78E69000207E0 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7D029D78E69000207E0 /* DetailsViewModel.swift */; };
+		A299F7E729D78E69000207E0 /* DetailsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7D129D78E69000207E0 /* DetailsViewModelProtocol.swift */; };
+		A299F7E829D78E69000207E0 /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7D329D78E69000207E0 /* DetailsCoordinator.swift */; };
+		A299F7E929D78E69000207E0 /* DetailsCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7D429D78E69000207E0 /* DetailsCoordinatorProtocol.swift */; };
+		A299F7EA29D78E69000207E0 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A299F7D629D78E69000207E0 /* DetailsViewController.xib */; };
+		A299F7EB29D78E69000207E0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7D729D78E69000207E0 /* DetailsViewController.swift */; };
+		A299F7EC29D78E69000207E0 /* DetailsViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7D829D78E69000207E0 /* DetailsViewControllerProtocol.swift */; };
+		A299F7ED29D78E69000207E0 /* DetailsCoordinatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7DB29D78E69000207E0 /* DetailsCoordinatorModel.swift */; };
+		A299F7EE29D78E69000207E0 /* DetailsResourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7DC29D78E69000207E0 /* DetailsResourses.swift */; };
+		A299F7F029D7948E000207E0 /* NetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F7EF29D7948E000207E0 /* NetworkModels.swift */; };
+		A299F80829DA34F8000207E0 /* NewsServiceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F80629DA34F8000207E0 /* NewsServiceServices.swift */; };
+		A299F80929DA34F8000207E0 /* NewsServiceServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A299F80729DA34F8000207E0 /* NewsServiceServicesProtocol.swift */; };
 		A2AD37B329C8A6F700B6FA20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37B229C8A6F700B6FA20 /* AppDelegate.swift */; };
-		A2AD37B529C8A6F700B6FA20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37B429C8A6F700B6FA20 /* SceneDelegate.swift */; };
-		A2AD37B729C8A6F700B6FA20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37B629C8A6F700B6FA20 /* ViewController.swift */; };
-		A2AD37BA29C8A6F700B6FA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AD37B829C8A6F700B6FA20 /* Main.storyboard */; };
 		A2AD37BD29C8A6F700B6FA20 /* MVVMCombine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37BB29C8A6F700B6FA20 /* MVVMCombine.xcdatamodeld */; };
 		A2AD37BF29C8A6FA00B6FA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AD37BE29C8A6FA00B6FA20 /* Assets.xcassets */; };
 		A2AD37C229C8A6FA00B6FA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AD37C029C8A6FA00B6FA20 /* LaunchScreen.storyboard */; };
 		A2AD37CD29C8A6FA00B6FA20 /* MVVMCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37CC29C8A6FA00B6FA20 /* MVVMCombineTests.swift */; };
 		A2AD37D729C8A6FA00B6FA20 /* MVVMCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37D629C8A6FA00B6FA20 /* MVVMCombineUITests.swift */; };
 		A2AD37D929C8A6FA00B6FA20 /* MVVMCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37D829C8A6FA00B6FA20 /* MVVMCombineUITestsLaunchTests.swift */; };
+		A2AD37EA29C8AA6C00B6FA20 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37E929C8AA6C00B6FA20 /* AppCoordinator.swift */; };
+		A2AD37F229C8AFBE00B6FA20 /* CoordinatorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37F129C8AFBE00B6FA20 /* CoordinatorProtocols.swift */; };
+		A2AD37F429C8B08C00B6FA20 /* CoordinatorEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD37F329C8B08C00B6FA20 /* CoordinatorEnums.swift */; };
+		A2C9CA0329C8D153005097F5 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C9CA0229C8D153005097F5 /* UIViewController+Extensions.swift */; };
+		F8012048BC1655FEF854FEC5 /* Pods_MVVMCombine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9D153A5B31B3EAC8D92ADF /* Pods_MVVMCombine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +68,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A312BB18F6C102DBAD162B /* Pods-MVVMCombine-MVVMCombineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCombine-MVVMCombineUITests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMCombine-MVVMCombineUITests/Pods-MVVMCombine-MVVMCombineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		207B125353BF9839F0FC11A5 /* Pods_MVVMCombine_MVVMCombineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMCombine_MVVMCombineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9D153A5B31B3EAC8D92ADF /* Pods_MVVMCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0508B317E205338C9BDF5E /* Pods-MVVMCombine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCombine.release.xcconfig"; path = "Target Support Files/Pods-MVVMCombine/Pods-MVVMCombine.release.xcconfig"; sourceTree = "<group>"; };
+		7B3E0CD6F538AFCF7EE335B7 /* Pods_MVVMCombineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMCombineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C70015B49D425C5D253F56 /* Pods-MVVMCombineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCombineTests.release.xcconfig"; path = "Target Support Files/Pods-MVVMCombineTests/Pods-MVVMCombineTests.release.xcconfig"; sourceTree = "<group>"; };
+		A25B500D29D63CBF006640B1 /* WeakReferenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakReferenceModel.swift; sourceTree = "<group>"; };
+		A25B505E29D66B2F006640B1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A25B506129D6700A006640B1 /* ServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
+		A25B506929D67141006640B1 /* NewsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModels.swift; sourceTree = "<group>"; };
+		A299F79D29D785FB000207E0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A299F79F29D7889A000207E0 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		A299F7C129D78E69000207E0 /* HomeViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModelProtocol.swift; sourceTree = "<group>"; };
+		A299F7C229D78E69000207E0 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A299F7C429D78E69000207E0 /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		A299F7C529D78E69000207E0 /* HomeCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		A299F7C729D78E69000207E0 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A299F7C829D78E69000207E0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A299F7C929D78E69000207E0 /* HomeViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerProtocol.swift; sourceTree = "<group>"; };
+		A299F7CB29D78E69000207E0 /* HomeResourses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeResourses.swift; sourceTree = "<group>"; };
+		A299F7CD29D78E69000207E0 /* HomeCoordinatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorModel.swift; sourceTree = "<group>"; };
+		A299F7D029D78E69000207E0 /* DetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		A299F7D129D78E69000207E0 /* DetailsViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewModelProtocol.swift; sourceTree = "<group>"; };
+		A299F7D329D78E69000207E0 /* DetailsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
+		A299F7D429D78E69000207E0 /* DetailsCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		A299F7D629D78E69000207E0 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		A299F7D729D78E69000207E0 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A299F7D829D78E69000207E0 /* DetailsViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerProtocol.swift; sourceTree = "<group>"; };
+		A299F7DB29D78E69000207E0 /* DetailsCoordinatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCoordinatorModel.swift; sourceTree = "<group>"; };
+		A299F7DC29D78E69000207E0 /* DetailsResourses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsResourses.swift; sourceTree = "<group>"; };
+		A299F7EF29D7948E000207E0 /* NetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModels.swift; sourceTree = "<group>"; };
+		A299F80629DA34F8000207E0 /* NewsServiceServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsServiceServices.swift; sourceTree = "<group>"; };
+		A299F80729DA34F8000207E0 /* NewsServiceServicesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsServiceServicesProtocol.swift; sourceTree = "<group>"; };
 		A2AD37AF29C8A6F700B6FA20 /* MVVMCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AD37B229C8A6F700B6FA20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2AD37B429C8A6F700B6FA20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2AD37B629C8A6F700B6FA20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2AD37B929C8A6F700B6FA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2AD37BC29C8A6F700B6FA20 /* MVVMCombine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVMCombine.xcdatamodel; sourceTree = "<group>"; };
 		A2AD37BE29C8A6FA00B6FA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2AD37C129C8A6FA00B6FA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +112,13 @@
 		A2AD37D229C8A6FA00B6FA20 /* MVVMCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AD37D629C8A6FA00B6FA20 /* MVVMCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCombineUITests.swift; sourceTree = "<group>"; };
 		A2AD37D829C8A6FA00B6FA20 /* MVVMCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2AD37E929C8AA6C00B6FA20 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A2AD37F129C8AFBE00B6FA20 /* CoordinatorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocols.swift; sourceTree = "<group>"; };
+		A2AD37F329C8B08C00B6FA20 /* CoordinatorEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorEnums.swift; sourceTree = "<group>"; };
+		A2C9CA0229C8D153005097F5 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		A8A2004AFFAB244ECEEF66EC /* Pods-MVVMCombineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCombineTests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMCombineTests/Pods-MVVMCombineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8EFF6FB4BD31CFB9066CEEB /* Pods-MVVMCombine-MVVMCombineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCombine-MVVMCombineUITests.release.xcconfig"; path = "Target Support Files/Pods-MVVMCombine-MVVMCombineUITests/Pods-MVVMCombine-MVVMCombineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD546D5685A58744F26F3DC6 /* Pods-MVVMCombine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCombine.debug.xcconfig"; path = "Target Support Files/Pods-MVVMCombine/Pods-MVVMCombine.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8012048BC1655FEF854FEC5 /* Pods_MVVMCombine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDA97FA240D7344E09637F5 /* Pods_MVVMCombineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +142,220 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B84C6FB75842E38D0131CA /* Pods_MVVMCombine_MVVMCombineUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C2655266CCD983094DAF06F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD546D5685A58744F26F3DC6 /* Pods-MVVMCombine.debug.xcconfig */,
+				6E0508B317E205338C9BDF5E /* Pods-MVVMCombine.release.xcconfig */,
+				18A312BB18F6C102DBAD162B /* Pods-MVVMCombine-MVVMCombineUITests.debug.xcconfig */,
+				A8EFF6FB4BD31CFB9066CEEB /* Pods-MVVMCombine-MVVMCombineUITests.release.xcconfig */,
+				A8A2004AFFAB244ECEEF66EC /* Pods-MVVMCombineTests.debug.xcconfig */,
+				84C70015B49D425C5D253F56 /* Pods-MVVMCombineTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D67D671E656B459F2EE3A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9D153A5B31B3EAC8D92ADF /* Pods_MVVMCombine.framework */,
+				207B125353BF9839F0FC11A5 /* Pods_MVVMCombine_MVVMCombineUITests.framework */,
+				7B3E0CD6F538AFCF7EE335B7 /* Pods_MVVMCombineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A25B500929D63A83006640B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A299F79C29D78588000207E0 /* BaseModels */,
+				A25B505D29D66B12006640B1 /* Network */,
+				A25B500A29D63A98006640B1 /* Models */,
+				A2C9CA0129C8D137005097F5 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A25B500A29D63A98006640B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A25B500D29D63CBF006640B1 /* WeakReferenceModel.swift */,
+				A299F7EF29D7948E000207E0 /* NetworkModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A25B505D29D66B12006640B1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A25B505E29D66B2F006640B1 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A25B506029D66F67006640B1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A25B506529D670BF006640B1 /* MyService */,
+				A25B506129D6700A006640B1 /* ServiceType.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A25B506529D670BF006640B1 /* MyService */ = {
+			isa = PBXGroup;
+			children = (
+				A299F80529DA34F8000207E0 /* NewsService */,
+				A25B506829D67123006640B1 /* Models */,
+			);
+			path = MyService;
+			sourceTree = "<group>";
+		};
+		A25B506829D67123006640B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A25B506929D67141006640B1 /* NewsModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A299F79C29D78588000207E0 /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+				A299F79D29D785FB000207E0 /* BaseViewController.swift */,
+				A299F79F29D7889A000207E0 /* BaseCoordinator.swift */,
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		A299F7BF29D78E69000207E0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7C029D78E69000207E0 /* ViewModel */,
+				A299F7C329D78E69000207E0 /* Coordinator */,
+				A299F7C629D78E69000207E0 /* Controller */,
+				A299F7CA29D78E69000207E0 /* Resourses */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A299F7C029D78E69000207E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7C129D78E69000207E0 /* HomeViewModelProtocol.swift */,
+				A299F7C229D78E69000207E0 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A299F7C329D78E69000207E0 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7C429D78E69000207E0 /* HomeCoordinator.swift */,
+				A299F7C529D78E69000207E0 /* HomeCoordinatorProtocol.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A299F7C629D78E69000207E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7C729D78E69000207E0 /* HomeViewController.xib */,
+				A299F7C829D78E69000207E0 /* HomeViewController.swift */,
+				A299F7C929D78E69000207E0 /* HomeViewControllerProtocol.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A299F7CA29D78E69000207E0 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7CB29D78E69000207E0 /* HomeResourses.swift */,
+				A299F7CC29D78E69000207E0 /* Models */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		A299F7CC29D78E69000207E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7CD29D78E69000207E0 /* HomeCoordinatorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A299F7CE29D78E69000207E0 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7CF29D78E69000207E0 /* ViewModel */,
+				A299F7D229D78E69000207E0 /* Coordinator */,
+				A299F7D529D78E69000207E0 /* Controller */,
+				A299F7D929D78E69000207E0 /* Resourses */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		A299F7CF29D78E69000207E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7D029D78E69000207E0 /* DetailsViewModel.swift */,
+				A299F7D129D78E69000207E0 /* DetailsViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A299F7D229D78E69000207E0 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7D329D78E69000207E0 /* DetailsCoordinator.swift */,
+				A299F7D429D78E69000207E0 /* DetailsCoordinatorProtocol.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A299F7D529D78E69000207E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7D629D78E69000207E0 /* DetailsViewController.xib */,
+				A299F7D729D78E69000207E0 /* DetailsViewController.swift */,
+				A299F7D829D78E69000207E0 /* DetailsViewControllerProtocol.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A299F7D929D78E69000207E0 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7DA29D78E69000207E0 /* Models */,
+				A299F7DC29D78E69000207E0 /* DetailsResourses.swift */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		A299F7DA29D78E69000207E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7DB29D78E69000207E0 /* DetailsCoordinatorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A299F80529DA34F8000207E0 /* NewsService */ = {
+			isa = PBXGroup;
+			children = (
+				A299F80629DA34F8000207E0 /* NewsServiceServices.swift */,
+				A299F80729DA34F8000207E0 /* NewsServiceServicesProtocol.swift */,
+			);
+			path = NewsService;
+			sourceTree = "<group>";
+		};
 		A2AD37A629C8A6F700B6FA20 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +363,8 @@
 				A2AD37CB29C8A6FA00B6FA20 /* MVVMCombineTests */,
 				A2AD37D529C8A6FA00B6FA20 /* MVVMCombineUITests */,
 				A2AD37B029C8A6F700B6FA20 /* Products */,
+				2C2655266CCD983094DAF06F /* Pods */,
+				4D67D671E656B459F2EE3A0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +381,12 @@
 		A2AD37B129C8A6F700B6FA20 /* MVVMCombine */ = {
 			isa = PBXGroup;
 			children = (
-				A2AD37B229C8A6F700B6FA20 /* AppDelegate.swift */,
-				A2AD37B429C8A6F700B6FA20 /* SceneDelegate.swift */,
-				A2AD37B629C8A6F700B6FA20 /* ViewController.swift */,
-				A2AD37B829C8A6F700B6FA20 /* Main.storyboard */,
-				A2AD37BE29C8A6FA00B6FA20 /* Assets.xcassets */,
-				A2AD37C029C8A6FA00B6FA20 /* LaunchScreen.storyboard */,
+				A25B506029D66F67006640B1 /* Services */,
+				A25B500929D63A83006640B1 /* Utils */,
+				A2C9CA6A29CA399E005097F5 /* Scenes */,
 				A2AD37C329C8A6FA00B6FA20 /* Info.plist */,
+				A2AD37E529C8AA1300B6FA20 /* App */,
+				A2AD37C029C8A6FA00B6FA20 /* LaunchScreen.storyboard */,
 				A2AD37BB29C8A6F700B6FA20 /* MVVMCombine.xcdatamodeld */,
 			);
 			path = MVVMCombine;
@@ -130,6 +409,43 @@
 			path = MVVMCombineUITests;
 			sourceTree = "<group>";
 		};
+		A2AD37E529C8AA1300B6FA20 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A2AD37E629C8AA2700B6FA20 /* Coordinator */,
+				A2AD37B229C8A6F700B6FA20 /* AppDelegate.swift */,
+				A2AD37BE29C8A6FA00B6FA20 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A2AD37E629C8AA2700B6FA20 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A2AD37F129C8AFBE00B6FA20 /* CoordinatorProtocols.swift */,
+				A2AD37F329C8B08C00B6FA20 /* CoordinatorEnums.swift */,
+				A2AD37E929C8AA6C00B6FA20 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A2C9CA0129C8D137005097F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2C9CA0229C8D153005097F5 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A2C9CA6A29CA399E005097F5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A299F7CE29D78E69000207E0 /* Details */,
+				A299F7BF29D78E69000207E0 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +453,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2AD37DC29C8A6FA00B6FA20 /* Build configuration list for PBXNativeTarget "MVVMCombine" */;
 			buildPhases = (
+				3F049549496540B3CCD84045 /* [CP] Check Pods Manifest.lock */,
 				A2AD37AB29C8A6F700B6FA20 /* Sources */,
 				A2AD37AC29C8A6F700B6FA20 /* Frameworks */,
 				A2AD37AD29C8A6F700B6FA20 /* Resources */,
+				344B4232F645B3D93147572A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +472,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2AD37DF29C8A6FA00B6FA20 /* Build configuration list for PBXNativeTarget "MVVMCombineTests" */;
 			buildPhases = (
+				D4095C0FEE9984992780173C /* [CP] Check Pods Manifest.lock */,
 				A2AD37C429C8A6FA00B6FA20 /* Sources */,
 				A2AD37C529C8A6FA00B6FA20 /* Frameworks */,
 				A2AD37C629C8A6FA00B6FA20 /* Resources */,
@@ -172,9 +491,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2AD37E229C8A6FA00B6FA20 /* Build configuration list for PBXNativeTarget "MVVMCombineUITests" */;
 			buildPhases = (
+				3F0FC752CF870A556E1AC551 /* [CP] Check Pods Manifest.lock */,
 				A2AD37CE29C8A6FA00B6FA20 /* Sources */,
 				A2AD37CF29C8A6FA00B6FA20 /* Frameworks */,
 				A2AD37D029C8A6FA00B6FA20 /* Resources */,
+				983A00EA96FF330DC5E7E0CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +557,8 @@
 			files = (
 				A2AD37C229C8A6FA00B6FA20 /* LaunchScreen.storyboard in Resources */,
 				A2AD37BF29C8A6FA00B6FA20 /* Assets.xcassets in Resources */,
-				A2AD37BA29C8A6F700B6FA20 /* Main.storyboard in Resources */,
+				A299F7E129D78E69000207E0 /* HomeViewController.xib in Resources */,
+				A299F7EA29D78E69000207E0 /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +578,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		344B4232F645B3D93147572A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMCombine/Pods-MVVMCombine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMCombine/Pods-MVVMCombine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVMCombine/Pods-MVVMCombine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F049549496540B3CCD84045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMCombine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0FC752CF870A556E1AC551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMCombine-MVVMCombineUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983A00EA96FF330DC5E7E0CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMCombine-MVVMCombineUITests/Pods-MVVMCombine-MVVMCombineUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMCombine-MVVMCombineUITests/Pods-MVVMCombine-MVVMCombineUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVMCombine-MVVMCombineUITests/Pods-MVVMCombine-MVVMCombineUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4095C0FEE9984992780173C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMCombineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2AD37AB29C8A6F700B6FA20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2AD37B729C8A6F700B6FA20 /* ViewController.swift in Sources */,
+				A25B506A29D67141006640B1 /* NewsModels.swift in Sources */,
+				A299F7E729D78E69000207E0 /* DetailsViewModelProtocol.swift in Sources */,
+				A299F7F029D7948E000207E0 /* NetworkModels.swift in Sources */,
+				A299F7EE29D78E69000207E0 /* DetailsResourses.swift in Sources */,
+				A299F7EB29D78E69000207E0 /* DetailsViewController.swift in Sources */,
+				A299F80929DA34F8000207E0 /* NewsServiceServicesProtocol.swift in Sources */,
+				A2AD37EA29C8AA6C00B6FA20 /* AppCoordinator.swift in Sources */,
+				A299F7E629D78E69000207E0 /* DetailsViewModel.swift in Sources */,
+				A299F7E829D78E69000207E0 /* DetailsCoordinator.swift in Sources */,
+				A299F7E229D78E69000207E0 /* HomeViewController.swift in Sources */,
+				A299F79E29D785FB000207E0 /* BaseViewController.swift in Sources */,
+				A299F7DF29D78E69000207E0 /* HomeCoordinator.swift in Sources */,
+				A299F7EC29D78E69000207E0 /* DetailsViewControllerProtocol.swift in Sources */,
+				A25B506229D6700A006640B1 /* ServiceType.swift in Sources */,
 				A2AD37B329C8A6F700B6FA20 /* AppDelegate.swift in Sources */,
-				A2AD37B529C8A6F700B6FA20 /* SceneDelegate.swift in Sources */,
+				A299F7E529D78E69000207E0 /* HomeCoordinatorModel.swift in Sources */,
+				A299F7E929D78E69000207E0 /* DetailsCoordinatorProtocol.swift in Sources */,
+				A25B505F29D66B2F006640B1 /* NetworkManager.swift in Sources */,
+				A2AD37F229C8AFBE00B6FA20 /* CoordinatorProtocols.swift in Sources */,
+				A2C9CA0329C8D153005097F5 /* UIViewController+Extensions.swift in Sources */,
+				A299F7DD29D78E69000207E0 /* HomeViewModelProtocol.swift in Sources */,
+				A299F7ED29D78E69000207E0 /* DetailsCoordinatorModel.swift in Sources */,
+				A299F7A029D7889A000207E0 /* BaseCoordinator.swift in Sources */,
 				A2AD37BD29C8A6F700B6FA20 /* MVVMCombine.xcdatamodeld in Sources */,
+				A299F7E429D78E69000207E0 /* HomeResourses.swift in Sources */,
+				A299F80829DA34F8000207E0 /* NewsServiceServices.swift in Sources */,
+				A2AD37F429C8B08C00B6FA20 /* CoordinatorEnums.swift in Sources */,
+				A25B500E29D63CBF006640B1 /* WeakReferenceModel.swift in Sources */,
+				A299F7DE29D78E69000207E0 /* HomeViewModel.swift in Sources */,
+				A299F7E329D78E69000207E0 /* HomeViewControllerProtocol.swift in Sources */,
+				A299F7E029D78E69000207E0 /* HomeCoordinatorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +753,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A2AD37B829C8A6F700B6FA20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2AD37B929C8A6F700B6FA20 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A2AD37C029C8A6FA00B6FA20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +880,7 @@
 		};
 		A2AD37DD29C8A6FA00B6FA20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD546D5685A58744F26F3DC6 /* Pods-MVVMCombine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +891,7 @@
 				INFOPLIST_FILE = MVVMCombine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,11 +904,14 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				api_key = F2mI2B0E2r2aSxMlOXKW4edcOSoSRbTF;
+				base_url = "https://api.nytimes.com/";
 			};
 			name = Debug;
 		};
 		A2AD37DE29C8A6FA00B6FA20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0508B317E205338C9BDF5E /* Pods-MVVMCombine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,7 +922,7 @@
 				INFOPLIST_FILE = MVVMCombine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -487,11 +935,14 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				api_key = F2mI2B0E2r2aSxMlOXKW4edcOSoSRbTF;
+				base_url = "https://api.nytimes.com/";
 			};
 			name = Release;
 		};
 		A2AD37E029C8A6FA00B6FA20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A2004AFFAB244ECEEF66EC /* Pods-MVVMCombineTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +963,7 @@
 		};
 		A2AD37E129C8A6FA00B6FA20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C70015B49D425C5D253F56 /* Pods-MVVMCombineTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +984,7 @@
 		};
 		A2AD37E329C8A6FA00B6FA20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A312BB18F6C102DBAD162B /* Pods-MVVMCombine-MVVMCombineUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +1003,7 @@
 		};
 		A2AD37E429C8A6FA00B6FA20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8EFF6FB4BD31CFB9066CEEB /* Pods-MVVMCombine-MVVMCombineUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

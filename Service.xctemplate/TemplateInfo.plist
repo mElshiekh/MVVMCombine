@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>App</string>
+	<key>Description</key>
+	<string>This generates a module using clean architecture. It consists of the view, controller, interactor, presenter, and coordinator. You can then create individual workers to supplement the interactor.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>serviceName</string>
+			<key>Name</key>
+			<string>New Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_serviceName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_serviceName:identifier___Services</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>The service name</string>
+			<key>Identifier</key>
+			<string>Service name</string>
+			<key>Name</key>
+			<string>Service Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Summary</key>
+	<string>Generates Service worker</string>
+</dict>
+</plist>
